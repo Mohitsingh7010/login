@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding-top: 0;
+  padding: 0px;
+  text-align: center;
+  color: #c1c0b9;
+  font-family: "Ubuntu";
+}
+
+.header{
+  margin: 0px 0 50px 0;
+  font-family: "Ubuntu";
+    background-color: #ff7272;
+    height: 150px;
+    width: 100%;
+    padding-top: 20px;
+      color: #fff;
+}
+.header a i{
+  font-size: 20px;
+  position: absolute;
+  left: 5%;
+}
+.header span{
+  position: absolute;
+  left:7%;
+  margin-left: 50px;
+}
+/* main */
+
+.main{
+  position: absolute;
+  text-align: left;
+  left: 40%;
+  font-size: 15px;
+  width: 30%;
+  margin-top: -20px;
+}
+
+.input{
+  width: 80%;
+  border: 0;
+  border-bottom: 2px solid #c1c0b9;
+  margin: 15px 0;
+  background-color: #fff;
+}
+.main button{
+  width: 80%;
+  height: 35px;
+  background-color: #ff7272;
+  border: 0;
+  color: #fff;
+  font-family: "Ubuntu";
+}
+.footer{
+  text-align: center;
+  margin-right: 90px;
+  margin-top: 30px;
+  color: black;
+}
+.footer a{
+  color: black;
+}
+
+@media (max-width: 1024px){
+
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  .header{
+    height: 50px;
+  }
+  .input{
+    width: 90%;
+    border: 0;
+    border-bottom: 2px solid #c1c0b9;
+    margin: 15px 0;
+    background-color: #fff;
+  }
+  .main{
+    text-align: left;
+    font-size: 15px;
+    width: 50%;
+    left: 30%;
+    margin-top: -20px;
+  }
+  .footer{
+    text-align: center;
+    margin:20px 30px 0 0;
+    font-size: 10px;
+    color: black;
+  }
+  .main button{
+    width: 90%;
+  }
+
+
+}

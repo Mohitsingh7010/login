@@ -1,0 +1,111 @@
+body{
+  background-color: #ff7272;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+.signin{
+  height: auto;
+  width: 400px;
+  background-color: inherit;
+  text-align: left;
+  position: absolute;
+  left: 40%;
+}
+.user{
+  margin: 20px 0;
+  background-color: inherit;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #faf4ff;
+  width: 80%;
+  color: #fff;
+}
+.header p{
+  font-size: 0.7rem;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+.header h1{
+  font-size: 5rem;
+  font-family: "Ubuntu";
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: 'Just Another Hand', cursive;
+}
+.main{
+  font-size: 10px;
+}
+.footer input{
+  margin: 20px 0px 20px 0;
+}
+.remember{
+  margin-right:  50px;
+  font-size: 15px;
+}
+.footer a{
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.footer button{
+  height: 40px;
+  width: 80%;
+  margin: 20px 0 30px 0px;
+  color: #ff7272;
+  background-color: #fff;
+  border:0;
+}
+.member a{
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+@media  (max-width: 1024px){
+
+  body{
+    text-align: center;
+  }
+  .header h1{
+    font-size: 10rem;
+  }
+  .header p{
+    font-size: 1.2rem;
+  }
+  .header{
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .main{
+    font-size: 25px;
+  }
+  .signin{
+    width: 80%;
+    left: 15%;
+  }
+  .user{
+    width: 80%;
+    height: 40px;
+  }
+  .footer{
+    margin-bottom: 20px;
+  }
+  .footer button{
+    height: 100px;
+    font-family: "Ubuntu";
+    width: 80%;
+    font-size: 30px;
+  }
+  .member a{
+    font-size: 27px;
+  }
+  .member{
+    font-size: 27px;
+  }
+  .ffooter{
+    margin-left: 21%;
+    margin-top: 70px;
+  }
+}
